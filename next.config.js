@@ -23,15 +23,11 @@ const nextConfig = {
                     {
                         key: 'Content-Security-Policy',
                         value:
-                            "default-src 'self' 'unsafe-inline' 'https://veagle.fr';",
+                            "default-src 'self' 'unsafe-inline' ;",
                     },
                     {
                         key: 'X-Content-Type-Options',
                         value: 'nosniff',
-                    },
-                    {
-                        key: 'Permissions-Policy',
-                        value: "camera=(); battery=(); geolocation=(); microphone=()",
                     },
                     {
                         key: 'Referrer-Policy',
