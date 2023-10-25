@@ -23,7 +23,7 @@ const nextConfig = {
                     {
                         key: 'Content-Security-Policy',
                         value:
-                            "default-src 'self' 'https://veagle.fr';",
+                            "default-src 'self' 'unsafe-inline' 'https://veagle.fr';",
                     },
                     {
                         key: 'X-Content-Type-Options',
