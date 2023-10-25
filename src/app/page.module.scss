@@ -66,14 +66,22 @@
     h1 {
       margin-top: 20px;
       font-weight: 700;
+      text-align: center;
     }
 
-    p {
+    .p {
       margin-top: 30px;
       opacity: 60%;
       font-size: 17px;
       width: 600px;
       text-align: center;
+    }
+
+    @media screen and (max-width: 1300px) {
+      .p {
+        width: 70vw;
+        background: red;
+      }
     }
 
     a {
