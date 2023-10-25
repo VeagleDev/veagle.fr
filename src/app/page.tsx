@@ -94,10 +94,6 @@ export default function Home() {
 
         <h1>Bienvenue sur Veagle !</h1>
         <p className={styles.p}>Nous sommes heureux de vous recevoir ! Vous nous avez pris de cours, notre portfolio est en cours de developpement...</p>
-        <p>
-          Nous sommes heureux de vous recevoir ! Vous nous avez pris de cours,
-          notre portfolio est en cours de développement...
-        </p>
         <a href="https://github.com/VeagleDev">Voir nos projet</a>
       </div>
     </main>
