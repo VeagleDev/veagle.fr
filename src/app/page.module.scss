@@ -32,10 +32,10 @@
       height: 35px;
       display: flex;
       align-items: center;
-      justify-content: center ;
+      justify-content: center;
       border-radius: 10px;
-      border: #D3D3D340 1px solid;
-      transition: all .3s ease;
+      border: #d3d3d340 1px solid;
+      transition: all 0.3s ease;
       margin-left: 10px;
 
       &:hover {
@@ -78,23 +78,23 @@
 
     a {
       margin-top: 30px;
-      background: #F5F3F4;
+      background: #f5f3f4;
       width: 150px;
       height: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #161A1D;
+      color: #161a1d;
       border-radius: 200px;
       font-weight: 500;
-      border: #F5F3F4 1px solid;
-      transition: all .2s ease;
+      border: #f5f3f4 1px solid;
+      transition: all 0.2s ease;
 
       &:hover {
-        background: #161A1D;
-        color: #F5F3F4;
-        border: #F5F3F4 1px solid;
+        background: #161a1d;
+        color: #f5f3f4;
+        border: #f5f3f4 1px solid;
       }
     }
-  }  
+  }
 }

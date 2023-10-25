@@ -1,12 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  color: #F5F3F4;
+  color: #f5f3f4;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 a {
   text-decoration: none;
-  
 }
 
 h1 {
@@ -14,6 +17,5 @@ h1 {
 }
 
 body {
-  background: #161A1D;
+  background: #161a1d;
 }
-
