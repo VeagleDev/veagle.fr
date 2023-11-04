@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
+import PlausibleProvider from "next-plausible";
 import "./globals.scss";
 
 const manrope = Manrope({ subsets: ["latin"] });
@@ -19,7 +20,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className={manrope.className}>{children}</body>
+      <PlausibleProvider domain={"veagle.fr"}>
+        <body className={manrope.className}>{children}</body>
+      </PlausibleProvider>
     </html>
   );
 }
