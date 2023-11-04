@@ -19,10 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script defer data-domain="veagle.fr" src="https://acabou.veagle.fr/js/script.js"></script>
       </head>
-      <PlausibleProvider domain={"veagle.fr"}>
         <body className={manrope.className}>{children}</body>
-      </PlausibleProvider>
     </html>
   );
 }

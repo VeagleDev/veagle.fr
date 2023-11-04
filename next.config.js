@@ -23,15 +23,15 @@ const nextConfig = {
                     {
                         key: 'Content-Security-Policy',
                         value:
-                            "default-src 'self' 'unsafe-inline' ;",
+                            "default-src 'self' 'unsafe-inline' https://acabou.veagle.fr;",
                     },
                     {
                         key: 'X-Content-Type-Options',
                         value: 'nosniff',
                     },
                     {
-                        key: 'Referrer-Policy',
-                        value: 'origin-when-cross-origin',
+                        key: 'Access-Control-Allow-Origin',
+                        value: 'https://acabou.veagle.fr',
                     },
                 ],
             },
