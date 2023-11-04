@@ -8,7 +8,15 @@ const nextConfig = {
             },
         ]
     },
-
+    async redirects() {
+        return [
+            {
+                source: '/:path*.html',
+                destination: '/',
+                permanent: true,
+            }
+        ]
+    },
     reactStrictMode: true,
     swcMinify: true,
     async headers() {
